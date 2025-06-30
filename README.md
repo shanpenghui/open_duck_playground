@@ -36,6 +36,9 @@ Infer mujoco
 
 ```bash
 uv run playground/open_duck_mini_v2/mujoco_infer.py -o <path_to_.onnx> (-k)
+python /home/duck/Open_Duck_Mini_Runtime/scripts/v2_rl_walk_mujoco.py --onnx_model_path /home/duck/Open_Duck_Mini_Runtime/BEST_WALK_ONNX_2.onnx --duck_config_path /home/duck/duck_config.json --action_scale 0.2
+python /home/duck/Open_Duck_Mini_Runtime/scripts/v2_rl_walk_mujoco.py --onnx_model_path /home/duck/Open_Duck_Mini_Runtime/2025_06_30_225843_151388160.onnx --duck_config_path /home/duck/duck_config.json --action_scale 0.2
+
 ```
 
 # Documentation
